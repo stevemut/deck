@@ -1,4 +1,3 @@
 # deck
-#creates a deck of cards and deals them
-hand<-c("ace","king","queen","jack","ten","spades","spades","spades","spades","spades")
-matrix(hand,nrow=5)
+#import a deck of card in csv format and save them in the working directory "C:/Users/stephen/Desktop/R/rcodes"
+write.csv(deck,file = "cards.csv",row.names = F)
